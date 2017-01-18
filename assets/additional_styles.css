@@ -1,15 +1,51 @@
 body {
   font-family: "Montserrat";
   font-size: 16px;
+  text-align: left;
 }
 
 h1, h2, h3, h4 {
   font-weight: 700;
+  text-align: center;
+}
+
+.white-text {
+  color: white;
+}
+
+.who-delivers {
+  background: url("images/main-hero.jpg");
+   background-size: 1800px 900px;
+   background-position: 0px -100px;
+}
+
+.off-white {
+  background-color: gainsboro;
+}
+
+.download-apps {
+  background: url("images/download-hero.jpg");
+  background-size: 1700px 1050px;
+  background-position: 0px -225px;
+}
+
+.footer {
+  background-color: midnightblue;
+}
+
+.left-text {
+  text-align: left;
+}
+
 }
 
 .navbar-brand {
   font-family: "Passion One";
   font-size: xx-large;
+}
+
+.img-circle {
+    border-radius: 50%;
 }
 
 /* My standard vertical spacing classes */
